@@ -24,7 +24,7 @@ npm i
 ```
 STEP I: Run JSON_SERVER_API
 
-json-server datas.json
+json-server taxbase.json
 
 STEP II: run VUE_WEBAPP_TAX
 
