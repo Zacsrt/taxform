@@ -1,4 +1,4 @@
-# TAXFORM
+# TAXFORM (VUE.JS and NODEJS REQUIRED)
 Website for tax.
 
 ## Project setup
