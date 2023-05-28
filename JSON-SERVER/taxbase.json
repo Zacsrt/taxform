@@ -1,0 +1,27 @@
+{
+  "taxdata": [
+    {
+      "firstchoice": "ผู้หัก ณ ที่จ่าย",
+      "username": "สุภาพร ศรีสมพงศ์",
+      "usernum": 1234567890,
+      "useraddress": "79/48 บางนา กรุงเทพมหานคร",
+      "agentname": "วิชัย การค้ารวย",
+      "agentnum": 5432167890,
+      "agentaddress": "142/340 วัฒนา กรุงเทพมหานคร",
+      "cusname": "จารจิรา อาภาไพร",
+      "cusnum": 987654321,
+      "cusaddress": "90/21 มีนบุรี กรุงเทพมหานคร",
+      "cusorder": 2,
+      "cuschoice": "ภ.ง.ด 53",
+      "cuscheck": true,
+      "date": "26.05.2023",
+      "percent": {
+        "1": "750.00",
+        "2": null,
+        "3": null,
+        "4": null
+      },
+      "id": 1
+    }
+  ]
+}

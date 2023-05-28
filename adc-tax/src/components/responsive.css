@@ -1,0 +1,621 @@
+@media only screen and (min-width:320px){
+  h1{
+    font-size: 15px;
+    padding-left: 5% ;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-thickness: 6px;
+    text-decoration-color: #6f399b;
+    text-underline-offset: 8px;
+    
+  }  
+  .grid{
+    height: 100px;
+      padding-left: 100px;
+      padding-right: 150px;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-areas: 
+      "formheader"
+      "formuser"
+      "formcustomer"
+      "formagent"
+      "formtable"
+      "formbutton" ; 
+    }
+    .formheader {
+      grid-area: formheader;
+      width: 100%;
+      display: flex;
+      font-size: 10px;
+      text-align: center;
+      padding-top: 0%;
+      height: max-content;
+    }
+    .header{
+      width: 50%;
+    }
+    .header input[type="radio"]{
+      width: 10px;
+      height: 10px;
+    }
+    .header-right{
+      text-align: right;
+       width: 50%;
+      }
+      .formuser {
+        grid-area: formuser;
+        max-width: 100%;
+        background-color: #eeddff;
+        font-size: 10px;
+        height: max-content;
+      }
+      .formagent {
+        grid-area: formagent;
+        max-width: 100%;
+        background-color: #f9e8d6;
+        font-size: 10px;
+        height: max-content;
+      }
+      .formcustomer {
+        grid-area: formcustomer;
+        background-color: #fffecd;
+        font-size: 10px;
+        height: max-content;
+      }
+      .pink1 input::placeholder, .yellow1 input::placeholder,.pink2 input::placeholder,.yellow2 input::placeholder,.pink3 input::placeholder, .orange3 input ::placeholder, .yellow3 input::placeholder, .yellow4 input::placeholder{
+        font-size: 10px;
+      }
+      .orange1 input::placeholder,.orange2 input::placeholder,.yellow7 input::placeholder{
+        font-size: 10px;
+      }
+      .pink1 input, .orange1 input, .yellow1 input{
+        font-size: 17px;
+        width: 100px;
+        height: 10px;
+        border-radius: 5px;
+        border: 2px solid #b4c0f3b7;
+        background-color: #d1cee4;
+      }
+      .pink2 input, .orange2 input, .yellow2 input{
+        font-size: 17px;
+        width: 110px;
+        height: 10px;
+        border-radius: 5px;
+        border: 2px solid #b4c0f3b7;
+      }
+      .pink3 input, .orange3 input, .yellow3 input{
+        width: 200px;
+        height: 30px;
+        border-radius: 5px;
+        border: 2px solid #b4c0f3b7;
+      }
+      .yellow4{
+        width: 100%;
+       padding-left: 2%;
+      }
+      .yellow4 input{
+        font-size: 17px;
+        width: 90px;
+        height: 10px;
+        border-radius: 5px;
+        border: 2px solid #b4c0f3b7;
+      }
+      .yellow4 input[type="radio"] {
+        height: 10px;
+        width: 15px;
+        margin-right: 8px;
+      }
+      .yellow5{
+        padding-top: 30px;
+        padding-left: 10%;
+      }
+      .yellow5 input[type="checkbox"]{
+        width: 20px;
+        height: 10px;
+      }
+      .yellow6{
+        display: flex;
+        padding-top: 20px;
+      padding-left: 2%;
+      }
+      .yellow7 input{
+        width: 130px;
+        height: 20px;
+      }
+      .formtable {
+        font-size: 12px;
+        grid-area: formtable;
+        display: grid;
+        flex-direction: column;
+        line-height: 30px;
+        text-align: center;
+        background-color: #f1f1f1;
+      }
+      .formtable input{
+        border-radius: 5px;
+        width: 40px;
+      }
+      button{
+        font-size: 10px;
+        font-weight: bold;
+        cursor: pointer;
+        border: 1px solid black;
+        border-radius: 5px;
+        height: 20px;
+        width: 45px;
+        margin-left: 10px;
+      }
+  }
+
+
+
+
+  @media only screen and (min-width:768px){
+    h1{
+      font-size: 17px;
+      padding-left: 5% ;
+      font-weight: bold;
+      text-decoration: underline;
+      text-decoration-thickness: 6px;
+      text-decoration-color: #6f399b;
+      text-underline-offset: 8px;
+      
+    }  
+    .grid{
+      height: 100px;
+        padding-left: 120px;
+        padding-right: 170px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "formheader"
+        "formuser"
+        "formcustomer"
+        "formagent"
+        "formtable"
+        "formbutton" ; 
+      }
+      .formheader {
+        grid-area: formheader;
+        width: 100%;
+        display: flex;
+        font-size: 15px;
+        text-align: center;
+        padding-top: 0%;
+        height: max-content;
+      }
+      .header{
+        width: 50%;
+      }
+      .header input[type="radio"]{
+        width: 12px;
+        height: 12px;
+      }
+      .header-right{
+        text-align: right;
+         width: 50%;
+        }
+        .formuser {
+          grid-area: formuser;
+          max-width: 100%;
+          background-color: #eeddff;
+          font-size: 15px;
+          height: max-content;
+        }
+        .formagent {
+          grid-area: formagent;
+          max-width: 100%;
+          background-color: #f9e8d6;
+          font-size: 15px;
+          height: max-content;
+        }
+        .formcustomer {
+          grid-area: formcustomer;
+          background-color: #fffecd;
+          font-size: 15px;
+          height: max-content;
+        }
+        .pink1 input::placeholder, .yellow1 input::placeholder,.pink2 input::placeholder,.yellow2 input::placeholder,.pink3 input::placeholder, .orange3 input ::placeholder, .yellow3 input::placeholder, .yellow4 input::placeholder{
+          font-size: 12px;
+        }
+        .orange1 input::placeholder,.orange2 input::placeholder,.yellow7 input::placeholder{
+          font-size: 12px;
+        }
+        .pink1 input, .orange1 input, .yellow1 input{
+          width: 150px;
+          height: 13px;
+          border-radius: 5px;
+          border: 2px solid #b4c0f3b7;
+          background-color: #d1cee4;
+        }
+        .pink2 input, .orange2 input, .yellow2 input{
+          width: 140px;
+          height: 13px;
+          border-radius: 5px;
+          border: 2px solid #b4c0f3b7;
+        }
+        .pink3 input, .orange3 input, .yellow3 input{
+          width: 240px;
+          height: 40px;
+          border-radius: 5px;
+          border: 2px solid #b4c0f3b7;
+        }
+        .yellow4{
+          width: 100%;
+         padding-left: 2%;
+        }
+        .yellow4 input{
+          font-size: 17px;
+          width: 110px;
+          height: 13px;
+          border-radius: 5px;
+          border: 2px solid #b4c0f3b7;
+        }
+        .yellow4 input[type="radio"] {
+          height: 12px;
+          width: 18px;
+          margin-right: 8px;
+        }
+        .yellow5{
+          padding-top: 30px;
+          padding-left: 10%;
+        }
+        .yellow5 input[type="checkbox"]{
+          width: 25px;
+          height: 12px;
+        }
+        .yellow6{
+          display: flex;
+          padding-top: 20px;
+        padding-left: 2%;
+        }
+        .yellow7 input{
+          width: 150px;
+          height: 30px;
+        }
+        .formtable {
+          font-size: 13px;
+          grid-area: formtable;
+          display: grid;
+          flex-direction: column;
+          line-height: 30px;
+          text-align: center;
+          background-color: #f1f1f1;
+        }
+        .formtable input{
+          border-radius: 5px;
+          width: 50px;
+        }
+        button{
+          font-size: 12px;
+          font-weight: bold;
+          cursor: pointer;
+          border: 1px solid black;
+          border-radius: 5px;
+          height: 22px;
+          width: 55px;
+          margin-left: 10px;
+        }
+    }
+
+
+    @media only screen and (min-width:1024px){
+      h1{
+        font-size: 20px;
+        padding-left: 5% ;
+        font-weight: bold;
+        text-decoration: underline;
+        text-decoration-thickness: 6px;
+        text-decoration-color: #6f399b;
+        text-underline-offset: 8px;
+        
+      }  
+      .grid{
+        height: 100px;
+          padding-left: 140px;
+          padding-right: 190px;
+          grid-template-columns: 1fr 1fr;
+          grid-template-rows: 2fr 6fr 6fr 6fr 4fr 4fr;
+          grid-template-areas:
+          "formheader formheader"
+          "formuser formcustomer"
+          "formagent formcustomer"
+          "formtable formtable"
+          "formbutton formbutton";
+        }
+        .formheader {
+          grid-area: formheader;
+          width: 100%;
+          display: flex;
+          font-size: 15px;
+          text-align: center;
+          padding-top: 0%;
+          height: max-content;
+        }
+        .header{
+          width: 50%;
+        }
+        .header input[type="radio"]{
+          width: 12px;
+          height: 12px;
+        }
+        .header-right{
+          text-align: right;
+           width: 50%;
+          }
+          .formuser {
+            grid-area: formuser;
+            max-width: 100%;
+            background-color: #eeddff;
+            font-size: 14px;
+            height: max-content;
+          }
+          .formagent {
+            grid-area: formagent;
+            max-width: 100%;
+            background-color: #f9e8d6;
+            font-size: 14px;
+            height: max-content;
+          }
+          .formcustomer {
+            grid-area: formcustomer;
+            background-color: #fffecd;
+            font-size: 14px;
+            height: max-content;
+          }
+          .pink1 input::placeholder, .yellow1 input::placeholder,.pink2 input::placeholder,.yellow2 input::placeholder,.pink3 input::placeholder, .orange3 input ::placeholder, .yellow3 input::placeholder, .yellow4 input::placeholder{
+            font-size: 12px;
+          }
+          .orange1 input::placeholder,.orange2 input::placeholder,.yellow7 input::placeholder{
+            font-size: 12px;
+          }
+          .pink1 input, .orange1 input, .yellow1 input{
+            width: 150px;
+            height: 13px;
+            border-radius: 5px;
+            border: 2px solid #b4c0f3b7;
+            background-color: #d1cee4;
+          }
+          .pink2 input, .orange2 input, .yellow2 input{
+            width: 140px;
+            height: 13px;
+            border-radius: 5px;
+            border: 2px solid #b4c0f3b7;
+          }
+          .pink3 input, .orange3 input, .yellow3 input{
+            width: 240px;
+            height: 40px;
+            border-radius: 5px;
+            border: 2px solid #b4c0f3b7;
+          }
+          .yellow4{
+            width: 100%;
+           padding-left: 2%;
+          }
+          .yellow4 input{
+            font-size: 17px;
+            width: 110px;
+            height: 13px;
+            border-radius: 5px;
+            border: 2px solid #b4c0f3b7;
+          }
+          .yellow4 input[type="radio"] {
+            height: 12px;
+            width: 18px;
+            margin-right: 8px;
+          }
+          .yellow5{
+            padding-top: 30px;
+            padding-left: 10%;
+          }
+          .yellow5 input[type="checkbox"]{
+            width: 25px;
+            height: 12px;
+          }
+          .yellow6{
+            display: flex;
+            padding-top: 20px;
+          padding-left: 2%;
+          }
+          .yellow7 input{
+            width: 150px;
+            height: 30px;
+          }
+          .formtable {
+            font-size: 13px;
+            grid-area: formtable;
+            display: grid;
+            flex-direction: column;
+            line-height: 30px;
+            text-align: center;
+            background-color: #f1f1f1;
+          }
+          .formtable input{
+            border-radius: 5px;
+            width: 50px;
+          }
+          button{
+            font-size: 12px;
+            font-weight: bold;
+            cursor: pointer;
+            border: 1px solid black;
+            border-radius: 5px;
+            height: 22px;
+            width: 55px;
+            margin-left: 10px;
+          }
+      }
+
+
+
+      @media only screen and (min-width:1440px){
+        h1{
+          font-size: 20px;
+          padding-left: 5% ;
+          font-weight: bold;
+          text-decoration: underline;
+          text-decoration-thickness: 6px;
+          text-decoration-color: #6f399b;
+          text-underline-offset: 8px;
+          
+        }  
+        .grid {
+          padding: 20px;
+          padding-left: 250px;
+          padding-right: 250px;
+          display: grid;
+          grid-template-rows: 2fr 6fr 6fr 6fr 4fr 4fr;
+          grid-template-columns: 1fr 1fr;
+          grid-template-areas:
+          "formheader formheader"
+          "formuser formcustomer"
+          "formagent formcustomer"
+          "formtable formtable"
+          "formbutton formbutton";
+          column-gap: 10px;
+          row-gap: 5px;
+        }
+        .formheader {
+          grid-area: formheader;
+          width: 100%;
+          display: flex;
+          font-size: 22px;
+          text-align: left;
+        }
+        .formuser {
+          grid-area: formuser;
+          max-width: 100%;
+          background-color: #eeddff;
+          font-size: 20px;
+        }
+        .formagent {
+          grid-area: formagent;
+          max-width: 100%;
+          background-color: #f9e8d6;
+          font-size: 20px;
+        }
+        .formcustomer {
+          grid-area: formcustomer;
+          background-color: #fffecd;
+          font-size: 20px;
+        }
+        .formtable {
+          font-size: 20px;
+          grid-area: formtable;
+          display: grid;
+          flex-direction: column;
+          line-height: 30px;
+          text-align: center;
+          background-color: #f1f1f1;
+        }
+        .formtable th{
+          background-color: #a5cff1;
+        }
+        .formbutton {
+          grid-area: formbutton;
+          text-align: center;
+        }
+        button{
+          font-weight: bold;
+          cursor: pointer;
+          border: 1px solid black;
+          border-radius: 5px;
+          height: 30px;
+          width: 80px;
+          margin-left: 10px;
+        }
+        .formtable input{
+          border-radius: 5px;
+          width: 100px;
+        }
+        .header{
+          width: 50%;
+        
+        }
+        .header input[type="radio"]{
+          width: 15px;
+          height: 15px;
+        }
+        .header-right{
+        text-align: right;
+         width: 50%;
+        }
+        
+        .pink, .orange, .yellow{
+          width: 100%;
+          display: flex;
+        }
+        .pink1, .orange1, .yellow1{
+        float: left;
+        width: 50%;
+        text-align: left;
+        padding-left: 2%;
+        }
+        .pink1 input, .orange1 input, .yellow1 input{
+          font-size: 17px;
+          width: 300px;
+          height: 25px;
+          border-radius: 5px;
+          border: 2px solid #b4c0f3b7;
+          background-color: #d1cee4;
+        }
+        .pink2, .orange2, .yellow2{
+        width: 50%;
+        }
+        .pink2 input, .orange2 input, .yellow2 input{
+          font-size: 17px;
+          width: 220px;
+          height: 25px;
+          border-radius: 5px;
+          border: 2px solid #b4c0f3b7;
+        }
+        .pink1 input::placeholder, .orange1 input ::placeholder, .yellow1 input::placeholder,.pink2 input::placeholder, .orange2 input ::placeholder, .yellow2 input::placeholder,.pink3 input::placeholder, .orange3 input ::placeholder, .yellow3 input::placeholder, .yellow4 input::placeholder{
+          font-size: 18px;
+        }
+        .pink3, .orange3, .yellow3{
+        float: left;
+        padding-left: 2%;
+        }
+        .pink3 input, .orange3 input, .yellow3 input{
+          width: 390px;
+          height: 70px;
+          border-radius: 5px;
+          border: 2px solid #b4c0f3b7;
+        }
+        .yellow4{
+          float: left;
+          padding-left: 30%;
+        }
+        .yellow4 input{
+          font-size: 17px;
+          width: 90px;
+          height: 25px;
+          border-radius: 5px;
+          border: 2px solid #b4c0f3b7;
+        }
+        .yellow4 input[type="radio"] {
+          height: 15px;
+          width: 20px;
+          margin-right: 15px;
+        }
+        .yellow5{
+          padding-top: 50px;
+          padding-left: 30%;
+        }
+        .yellow5 input[type="checkbox"]{
+          width: 40px;
+          height: 15px;
+        }
+        .yellow6{
+          display: flex;
+          padding-top: 20px;
+        padding-left: 20%;
+        }
+        .yellow7{
+          padding-left: 10px;
+        }
+        .yellow7 input{
+          width: 200px;
+        }      
+        }
